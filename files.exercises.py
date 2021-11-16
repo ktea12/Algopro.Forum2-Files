@@ -18,7 +18,7 @@ text = open("D:/untitled2.py", "r")
 word = re.split("\s", text.read())
 length = re.findall("\w", text.read())
 for length in word:
-    avgw = len(length))/len(word)
+    avgw = len(length)/len(word)
     print(f'The average word length is {avgw} letters.')
 
 
