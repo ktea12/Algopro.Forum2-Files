@@ -19,7 +19,8 @@ word = re.split("\s", text.read())
 length = re.findall("\w", text.read())
 for length in word:
     avgw = len(length)/len(word)
-    print(f'The average word length is {avgw} letters.')
+
+print(f'The average word length is {avgw} letters.')
 
 
 #4.Sentence splitter.
