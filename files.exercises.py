@@ -16,7 +16,7 @@ import re
 
 text = open("D:/untitled2.py", "r")
 word = re.split("\s", text.read())
-length = re.findall("\w+", text.read())
+length = re.findall("\w", text.read())
 for length in word:
     avgw = len(word)/len(length)
     favgw = "{:,.0f}".format(avgw)
